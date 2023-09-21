@@ -10,13 +10,13 @@ namespace Spryker\Zed\AppKernelExtension\Dependency\Plugin;
 use Generated\Shared\Transfer\AppConfigTransfer;
 
 /**
- * Implement this plugin to add save an App configuration.
+ * Implement this plugin to implement business logic that needs to be executed after the Configuration was saved.
  */
-interface ConfigurationSaverPluginInterface
+interface ConfigurationAfterSavePluginInterface
 {
     /**
      * Specification:
-     * - Saves an App Configuration.
+     * - Plugin gets executed after the Configuration of an App was saved.
      *
      * @api
      *
@@ -24,5 +24,5 @@ interface ConfigurationSaverPluginInterface
      *
      * @return \Generated\Shared\Transfer\AppConfigTransfer
      */
-    public function save(AppConfigTransfer $appConfigTransfer): AppConfigTransfer;
+    public function afterSave(AppConfigTransfer $appConfigTransfer): AppConfigTransfer;
 }

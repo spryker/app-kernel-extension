@@ -10,7 +10,6 @@
     <config name="php_version" value="80000"/>
 
     <file>src/</file>
-    <file>tests/</file>
 
     <exclude-pattern>*/tests/_support/_generated/*</exclude-pattern>
     <exclude-pattern>*/tests/_helpers/*</exclude-pattern>

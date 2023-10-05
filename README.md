@@ -2,7 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/spryker/app-kernel-extension/v/stable.svg)](https://packagist.org/packages/spryker/app-kernel-extension)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg)](https://php.net/)
 
-{{ADD DESCRIPTION HERE}}
+Extension Module for the AppKernel
 
 ## Installation
 

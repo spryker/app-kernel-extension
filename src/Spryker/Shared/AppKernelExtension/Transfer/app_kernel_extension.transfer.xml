@@ -5,7 +5,4 @@
     <transfer name="AppConfig" strict="true">
     </transfer>
 
-    <transfer name="AppDisconnect" strict="true">
-    </transfer>
-
 </transfers>

@@ -7,10 +7,10 @@
 
 namespace Spryker\Zed\AppKernelExtension\Dependency\Plugin;
 
-use Generated\Shared\Transfer\AppDisconnectTransfer;
+use Generated\Shared\Transfer\AppConfigTransfer;
 
 /**
- * Implement this plugin to implement business logic that needs to be executed before the Configuration gets deleted.
+ * Implement this plugin to implement business logic that needs to be executed before the Configuration gets deleted (marked as inactive).
  */
 interface ConfigurationBeforeDeletePluginInterface
 {
@@ -20,9 +20,9 @@ interface ConfigurationBeforeDeletePluginInterface
      *
      * @api
      *
-     * @param \Generated\Shared\Transfer\AppDisconnectTransfer $appDisconnectTransfer
+     * @param \Generated\Shared\Transfer\AppConfigTransfer $appConfigTransfer
      *
-     * @return \Generated\Shared\Transfer\AppDisconnectTransfer
+     * @return \Generated\Shared\Transfer\AppConfigTransfer
      */
-    public function beforeDelete(AppDisconnectTransfer $appDisconnectTransfer): AppDisconnectTransfer;
+    public function beforeDelete(AppConfigTransfer $appConfigTransfer): AppConfigTransfer;
 }
